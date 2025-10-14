@@ -3,29 +3,7 @@ import Image from "next/image";
 const MONITORING_FEATURES = [
   {
     title: "CPU Monitoring",
-    description: "Real-time CPU usage tracking, core utilization, and performance metrics with detailed analytics.",
-    icon: "🖥️",
-  },
-  {
-    title: "Memory Analytics",
-    description: "Comprehensive memory usage monitoring, leak detection, and optimization recommendations.",
-    icon: "🧠",
-  },
-  {
-    title: "Network Traces",
-    description: "Advanced network monitoring with request tracing, bandwidth analysis, and latency tracking.",
-    icon: "🌐",
-  },
-  {
-    title: "System Vitals",
-    description: "Complete system health monitoring including disk I/O, temperature, and resource availability.",
-    icon: "❤️",
-  },
-];
-
-const METRICS_DATA = [
-  { label: "Systems Monitored", value: "10,000+" },
-  { label: "Metrics Collected", value: "50M+" },
+    description: " value: "50M+" },
   { label: "Uptime", value: "99.99%" },
   { label: "Response Time", value: "<50ms" },
 ];
